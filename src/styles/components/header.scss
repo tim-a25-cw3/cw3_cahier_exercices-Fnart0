@@ -1,0 +1,20 @@
+/* ==========================================================================
+   header / component
+   ========================================================================== */
+
+.header {
+    padding: 25px 0;
+    text-align: center;
+
+    background-color: rgb(0, 0, 0, 0.6);
+
+    position: fixed;
+    width: 100%;
+
+    z-index: 2;
+
+    a {
+        color: var(--color-white);
+        font-size: 20px;
+    }
+}
