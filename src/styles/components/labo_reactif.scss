@@ -1,0 +1,42 @@
+/* ==========================================================================
+   labo_reactif / component
+   ========================================================================== */
+
+.labo_reactif {
+    background-color: var(--color-primary);
+    padding: 80px 110px;
+
+    h2 {
+        color: var(--color-black);
+
+        margin-bottom: 100px;
+
+        span {
+            color: var(--color-black);
+            font-weight: 300;
+        }
+    }
+
+    .cards {
+        .card__content {
+            h3 {
+                color: var(--color-black);
+            }
+
+            p {
+                color: var(--color-black);
+                font-weight: 600;
+
+                span {
+                    color: var(--color-black);
+                    font-weight: 300;
+                }
+            }
+
+            .note {
+                color: var(--color-black);
+                font-weight: 300;
+            }
+        }
+    }
+}

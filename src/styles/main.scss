@@ -25,6 +25,9 @@
 @import 'elements/links';
 @import 'elements/wrapper';
 
+// TOUTES LES COMPOSANTES
+@import '../../node_modules/swiper/swiper-bundle';
+
 // COMPONENTS
 // Composants d'interface utilisateur spécifiques.
 // C’est là que la majorité de notre travail a lieu.
@@ -32,4 +35,5 @@
 @import 'components/header';
 @import 'components/hero';
 @import 'components/labo';
+@import 'components/labo_reactif';
 @import 'components/btn';
