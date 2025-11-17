@@ -1,0 +1,21 @@
+/* ==========================================================================
+   btn / component
+   ========================================================================== */
+
+.btn {
+    color: var(--color-black);
+    font-size: 16px;
+    font-weight: 700;
+
+    padding: 8px 16px;
+    border-radius: 100px;
+
+    background-color: var(--color-primary);
+
+    width: 255px;
+
+    &:hover {
+        background-color: var(--color-white);
+        text-decoration: none;
+    }
+}
