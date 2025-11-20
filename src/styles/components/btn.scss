@@ -3,6 +3,9 @@
    ========================================================================== */
 
 .btn {
+    display: flex;
+    align-items: center;
+
     color: var(--color-black);
     font-size: 16px;
     font-weight: 700;
@@ -17,6 +20,10 @@
     &:hover {
         background-color: var(--color-white);
         text-decoration: none;
+    }
+
+    .icon {
+        font-size: 24px;
     }
 }
 
