@@ -1,0 +1,44 @@
+/* ==========================================================================
+   footer / component
+   ========================================================================== */
+.footer {
+    background-color: var(--color-black);
+    padding: 40px 110px;
+
+    .footer__content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 4px;
+
+        .note {
+            font-size: var(--font-size-note);
+            color: rgb(255, 255, 255, 0.55);
+            margin: 0;
+        }
+
+        .contact {
+            font-size: 56px;
+            color: rgb(255, 255, 255, 0.55);
+            margin: 0;
+        }
+
+        span {
+            font-weight: 700;
+            color: var(--color-white);
+        }
+    }
+
+    .footer__media {
+        display: flex;
+        justify-content: center;
+        gap: 56px;
+
+        margin-top: 30px;
+
+        .icon {
+            color: rgb(255, 255, 255, 0.55);
+            font-size: 48px;
+        }
+    }
+}

@@ -17,7 +17,7 @@ class Main {
 
     if (target) {
       const swiper = new Swiper(target, {
-        pagination: { el: '.swiper-pagination' },
+        pagination: { el: '.swiper-pagination', type: 'bullets' },
       });
     }
   }
