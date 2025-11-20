@@ -27,9 +27,16 @@
         grid-template-columns: 1fr 1fr;
         gap: 32px;
 
+        @media (width <= $breakpoint-sm) {
+            grid-template-columns: 1fr;
+        }
+
         &:nth-child(even) {
             .card__content {
                 order: -1;
+                @media (width <= $breakpoint-sm) {
+                    order: 1;
+                }
             }
         }
 
@@ -73,5 +80,11 @@
                 border-radius: 16px;
             }
         }
+    }
+}
+
+@media (width <= $breakpoint-md) {
+    .labo {
+        padding: 60px 30px;
     }
 }

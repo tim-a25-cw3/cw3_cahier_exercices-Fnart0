@@ -35,3 +35,9 @@
         object-fit: cover;
     }
 }
+
+@media (width <= $breakpoint-md) {
+    .hero {
+        padding: 60px 30px;
+    }
+}
